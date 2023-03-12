@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha</title>
+</head>
+<body>
+
+    <main class="container">
+
+        <!-- <h1>Gerador de senhas</h1> -->
+
+        <section id="container_um">
+            <h1>Gerador de senhas</h1>
+
+            <div id="response">
+                <input type="text" id="result">
+                <button id="copiar_text"><img src="../../src/assets/img/copia-de.png" alt=""></button>
+            </div>
+        </section>
+        <!-- <p id="result"></p> -->
+
+        <form>
+
+            <div>
+                <Label>Quantidade de caracteres</Label>
+                <input type="number" id="input-quantDeCarct" name="input-quantDeCarct" min="0" max="30" >
+            </div>
+               
+
+            <div>
+                <Label for="add nums">Adicionar numeros</Label>
+                <input type="checkbox" id="add nums" name="add_nums">
+            </div>
+
+            <div>
+                <Label>Letras Maiusculas</Label>
+                <input type="checkbox" id="add maius" name="add_maius">
+            </div>
+
+            <div>
+                <Label>Letras minusculas</Label>
+                <input type="checkbox" id="add min" name="add_min">
+            </div>
+
+            <div>
+                <Label>Letras simbolos</Label>
+                <input type="checkbox" id="add simb" name="add_simb">
+            </div>
+            
+            <button type="submit">Gerar senha</button>
+
+        </form>
+
+    </main>
+
+
+    <script src="./public/assets/js/bundle.js"></script>
+</body>
+</html>
+
